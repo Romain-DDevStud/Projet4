@@ -305,6 +305,18 @@ a:hover {
     position: relative;
     z-index: 2;
 }
+.quote {
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-style: italic;
+}
+.quote p {
+    font-size: 2rem;
+}
+#bloc-8 p {
+    font-size: 1.5rem;
+}
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
