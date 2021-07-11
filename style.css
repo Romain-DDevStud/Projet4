@@ -317,6 +317,10 @@ a:hover {
 #bloc-8 p {
     font-size: 1.5rem;
 }
+.col-sm-6 img {
+    width: 270px;
+    height: 270px;
+}
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
@@ -609,6 +613,8 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+    text-decoration: underline;
+    color: white !important;
 }
 h2 {
     font-size: 22px;
