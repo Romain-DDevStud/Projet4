@@ -261,6 +261,8 @@ a:hover {
     max-height: 200px;
     margin: 0 5px 0 0;
     display: inline;
+    width: 265px;
+    height: 50px;
 }
 .navbar-brand img[src$=svg] {
     min-width: 100px;
@@ -324,6 +326,10 @@ a:hover {
 }
 figcaption {
     color: #333333;
+}
+.center-block {
+    width: 100px;
+    height: 100px;
 }
 @media (min-width: 768px) {
     .site-navigation {
