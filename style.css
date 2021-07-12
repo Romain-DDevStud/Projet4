@@ -80,6 +80,7 @@ a:hover {
 .texture-paper::before {
     background: url("img/texture-paper.png");
     background-size: 280px 280px;
+    display: none;
 }
 .b-parallax {
     background-attachment: fixed;
@@ -320,6 +321,9 @@ a:hover {
 .col-sm-6 img {
     width: 270px;
     height: 270px;
+}
+figcaption {
+    color: #333333;
 }
 @media (min-width: 768px) {
     .site-navigation {
@@ -596,7 +600,10 @@ p {
 }
 .tight-width-whitespace {
     max-width: 600px;
-    margin: auto auto auto auto;
+    margin: auto;
+}
+.col-sm-12 h1+p {
+    margin: auto 0;
 }
 .h1 {
     font-size: 20px;
@@ -672,7 +679,7 @@ h4 {
     background-color: #F3976C;
 }
 .tc-white {
-    color: #F3976C!important;
+    color: #FFF!important;
 }
 .btn-atomic-tangerine {
     background: #F3976C;
